@@ -29,13 +29,12 @@ public class CognateWords {
                 }
             }
         }
+        for (String word : cognateWords) {
+            System.out.println(word);
+        }
 
         if(counter == 0){
             System.out.println("No");
-        }
-
-        for (String word : cognateWords) {
-            System.out.println(word);
         }
     }
 }
